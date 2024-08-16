@@ -1,0 +1,24 @@
+For SRR7052564_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 21029687
+ Counts for stranded RNA-seq reads on first strand is 1127282
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 21478818
+For SRR7052565_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 20408191
+ Counts for stranded RNA-seq reads on first strand is 1092246
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 20919910
+For SRR7052566_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 20280843
+ Counts for stranded RNA-seq reads on first strand is 1070559
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 20797623
+For SRR7052567_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 19959177
+ Counts for stranded RNA-seq reads on first strand is 1060651
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 20341480
+For SRR7052568_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 17611452
+ Counts for stranded RNA-seq reads on first strand is 925912
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 18023625
+For SRR7052569_trimmed.fq.gz_other.fq.fqReadsPerGene.out.tab:
+ Counts for unstranded RNA-seq reads is 16284072
+ Counts for stranded RNA-seq reads on first strand is 772802
+ Counts for stranded RNA-seq reads on the second strand (reverse strand) is 16626329

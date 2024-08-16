@@ -1,0 +1,130 @@
+\documentclass[12pt]{book}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr} % Required for custom headers/footers
+\usepackage{setspace}
+
+%\title{FMP_ Thesis}
+%\author{Davide Biondi }
+%\date{August 2024}
+
+% Redefine the tableofcontents default name
+\renewcommand{\contentsname}{Index of Contents}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{2cm}
+
+\huge\textbf{Human gut derived-organoids
+provide model to study gluten
+response and effects of microbiota
+derived molecules in celiac disease}
+
+\vspace{1cm}
+
+\Large\textbf{Dr. Davide Biondi}
+\vspace{3cm}
+
+\large Master Thesis
+
+
+\vspace{1cm}
+\begin{figure}
+    \begin{center}
+    \includegraphics[scale=0.5]{unisa_logo.png}
+    \end{center}
+     
+\end{figure}
+\begin{figure}
+    \begin{center}
+    \includegraphics[scale=0.5]{uvic_logo.png}
+    \end{center}
+    
+     
+\end{figure}
+ 
+\begin{tabular}{@{}l@{\hspace{5cm}}l@{}}
+Supervisor: & Prof. Roberto Tagliaferri \\
+Tutor: & Prof. Jordi Villà Freixa \\
+\end{tabular}
+
+\end{center}
+\end{titlepage}
+
+% Set up fancy page style for pages after the title page
+\fancypagestyle{myfancy}{
+    \fancyhf{} % Clear all header and footer fields
+    \fancyfoot[C]{\thepage} % Place page number at center of the footer
+    \renewcommand{\headrulewidth}{0pt} % Remove header line
+    \renewcommand{\footrulewidth}{0pt} % Remove footer line
+}
+
+% Apply the custom page style
+\pagestyle{myfancy}
+
+\tableofcontents  % Add the section
+
+% You can add content for the index here
+\end{document}
+%\maketitle
+
+%Common commands
+%\section{section name}
+%\subsection{Introduction}
+%\subsubsection{Introduction}
+%\paragraph{text inclusive of period} %this is not numbered automatically
+%\section{section name} \label{sec:label of the section}
+%\ref{sec:label of the section} %hyperlink to section name
+%\tableofcontents %creates an index, do not use section and subsection, it adds points and pages automatically but does not include paragraphs (subsections and subsubsections are included instead), the automatic title is Contents.
+%\usepackage{amsmath} for mathematical symbols
+
+%\begin{equation}
+% equation
+%\end{equation}
+
+%\begin{equation} \label{sec:number of the equation}
+% equation
+%\end{equation}
+
+%$mathematicalsymbols$
+%$\greekletter$
+%$\ldots$ %lower mathematical dots
+%$\cdots$ %central dots
+%$\frac$ %fraction
+%$\infty$ %infinite
+%$\sum$ summation
+%$sqrt$ %square root
+%$\mathcal{N}(0,\sigma^2)$ %math distribution
+%$\displaystyle\prod_{i=1}^{n} x_i$
+%$\prod_{i=1}^{n} x_i$
+
+%\newpage % Start a new page
+% \href{LINK}{linkname}
+% \usepackage{package_name}
+%\begin{itemize} % Pointed list
+%    \item First item
+%   \item Second item
+%   \item Third item
+%\end{itemize}
+%\begin{enumerate} %Numbered list
+%    \item First item
+%    \item Second item
+%    \item Third item
+%\end{enumerate}
+%You can also do nested pointed or numbered lists
+% \footnote{footnote content}
+
+%Example of table
+%\begin{table}
+% \centering
+%   \begin{tabular}{l|r} %left and right column
+%    Item & Quantity \\ \hline
+%   Widgets & 42 \\
+%   Gadgets & 13
+%   \end{tabular}
+%\caption{An example table.}
+%\end{table}
+%search for web tool that generate latex tables (latex table generator)

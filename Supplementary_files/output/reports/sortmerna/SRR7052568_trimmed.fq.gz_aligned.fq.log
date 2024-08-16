@@ -1,0 +1,36 @@
+ Command:
+    /home/pc/miniconda3/envs/tagliaferri_task/bin/sortmerna --ref /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/human_rRNA_2.fa --reads /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/qc_output/SRR7052568_trimmed.fq.gz --aligned /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/qc_output/rRNA_removed/SRR7052568_trimmed.fq.gz_aligned.fq --other /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/qc_output/rRNA_removed/SRR7052568_trimmed.fq.gz_other.fq --fastx --log 
+
+ Process pid = 
+
+ Parameters summary: 
+    Reference file: /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/human_rRNA_2.fa
+        Seed length = 18
+        Pass 1 = 18, Pass 2 = 9, Pass 3 = 3
+        Gumbel lambda = 0.601061
+        Gumbel K = 0.328323
+        Minimal SW score based on E-value = 48
+    Number of seeds = 2
+    Edges = 4
+    SW match = 2
+    SW mismatch = -3
+    SW gap open penalty = 5
+    SW gap extend penalty = 2
+    SW ambiguous nucleotide = -3
+    SQ tags are not output
+    Number of alignment processing threads = 2
+    Reads file: /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/qc_output/SRR7052568_trimmed.fq.gz
+    Total reads = 26389536
+
+ Results:
+    Total reads passing E-value threshold = 7262 (0.03)
+    Total reads failing E-value threshold = 26382274 (99.97)
+    Minimum read length = 20
+    Maximum read length = 51
+    Mean read length    = 50
+
+ Coverage by database:
+    /home/pc/master/deadlines_assignments_papers_lectures/fmp/fmp_tagliaferri/tagliaferri_marabotti_task/raw_data/human_rRNA_2.fa		0.03
+
+ Mon Jun 24 18:39:31 2024
+

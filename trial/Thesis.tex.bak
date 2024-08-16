@@ -1,0 +1,65 @@
+\documentclass[12pt]{report}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+%\fancyfoot[C]{-- \thepage --} % Centered page number in the format -number-
+%\fancyfoot[C]{-\ \thepage\ -} % Centered page number with symmetrical dashes
+\fancyfoot[C]{ \thepage\ }
+% Remove the line above sections
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{}{}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{2cm}
+
+\huge\textbf{Human gut derived-organoids
+provide model to study gluten
+response and effects of microbiota
+derived molecules in celiac disease}
+
+\vspace{1cm}
+
+\Large\textbf{Dr. Davide Biondi}
+\vspace{3cm}
+
+\large Master Thesis
+
+
+\vspace{1cm}
+\begin{figure}
+    \begin{center}
+    \includegraphics[scale=0.5]{unisa_logo.png}
+    \end{center}
+     
+\end{figure}
+\begin{figure}
+    \begin{center}
+    \includegraphics[scale=0.5]{uvic_logo.png}
+    \end{center}
+    
+     
+\end{figure}
+ 
+\begin{tabular}{@{}l@{\hspace{5cm}}l@{}}
+Supervisor: & Prof. Roberto Tagliaferri \\
+Tutor: & Prof. Jordi Villà Freixa \\
+\end{tabular}
+
+\end{center}
+\end{titlepage}
+
+\newpage % Start a new page
+
+\section*{Index of contents} % Add the section
+% You can add content for the index here
+\end{document}
