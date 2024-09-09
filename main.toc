@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Summary}{2}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\large \textbf {Abstract}}{2}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\large \textbf {Abbreviations}}{2}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Materials and Methods}{3}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Results}{6}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Discussion}{9}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}References}{11}{section.6}%
