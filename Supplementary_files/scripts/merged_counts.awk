@@ -1,19 +1,20 @@
 #!/usr/bin/awk -f
 
-BEGIN {
-    # Prepare the filenames array
-    cmd = "ls -1 SRR*_reverse.tsv"
-    i = 0
-    
-    # Open a pipe to the command and read its output line by line
-    while ((cmd | getline line) > 0) {
-        filenames[i++] = line
-    }
-    
-    # Close the pipe
-    close(cmd)
-}
-
+#BEGIN {
+#    # Prepare the filenames array
+#    cmd = "ls -1 SRR*_reverse.tsv"
+#    i = 0
+#    
+#    # Open a pipe to the command and read its output line by line
+#    while ((cmd | getline line) > 0) {
+#        filenames[i++] = line
+#    }
+#    
+#    # Close the pipe
+#    close(cmd)
+#}
+#Check on  the filenames[] array
+#NR = 1 {print filenames[0]} #incomprehensible behaviour, it prints the first record of the first input files, and 60k times the value in filenames[0]
 # Process the main file
 FNR == NR {
     OFS = FS = "\t"
@@ -37,3 +38,5 @@ END {
         print line_2[key]
     }
 }
+#the script is supposed to work like this: ./merged_counts.awk ensembl_ids.txt SRR* > merged_counts.tsv 
+#the array filenames[] did not get used in this script, it is better in this final version
